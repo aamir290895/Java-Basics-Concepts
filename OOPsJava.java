@@ -3,13 +3,16 @@ package com.javabasics;
 public class OOPsJava {
 	
 	
-  //Encapsulation restricts direct access to some of an object's components, 
-  //which helps prevent unintended interference and misuse of the data.	
+   // Encapsulation restricts direct access to some of an object's components, 
+   // which helps prevent unintended interference and misuse of the data.	
+	
+	
+   // To allow controlled access to the private data members, public methods (also known as accessor methods) are provided.	
    public static int myInt = 0 ;
    
    
-   // Protected members are accessible within the same class, within subclasses (even if the subclass is in a different package)
-   // , and within the same package.
+   //The data members (fields or attributes) of a class are often marked as private. 
+   //This makes them accessible only within the class itself, and not from outside.
 
    
    private static int myPrivateInt = 1;
